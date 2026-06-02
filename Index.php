@@ -12,6 +12,7 @@ if (!$conexion) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Principal</title>
+    <link rel="stylesheet" href="EstiloIndex.css">
 </head>
 <body>
 
@@ -52,7 +53,7 @@ if (!$conexion) {
 ?>
     <BR> <BR>
 
-     <button> <a href="RegistrarPedido.php"> Volver atras</a> </button> 
+     <button> <a href="RegistrarPedido.php"> Registrar Pedido</a> </button> 
     
 </body>
 </html>

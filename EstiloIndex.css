@@ -1,0 +1,142 @@
+p{font-size: 12pt; font-family: Arial, Helvetica; font-weight: normal;}
+
+h1{font-size: 36pt; font-family: verdana,arial; text-decoration: underline; text-align: center; background-color:teal;}
+
+td{font-size: 10pt; font-family: Verdana, arial; text-align: center; background-color: 666666;}
+
+body{color: black; background-color: #cccccc;}
+
+h2{
+    color: #2c3e50;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 8px;
+}
+
+#pagototal {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #f0f0f0; /* Agregué un color para que se note el borde */
+    border: 1px solid #ccc;    /* Un borde sutil */
+    min-height: 50px;          /* Para que no desaparezca si está vacío */
+}
+
+#texto-resultado {
+    color: #333;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#pagomensual{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #f0f0f0; /* Agregué un color para que se note el borde */
+    border: 1px solid #ccc;    /* Un borde sutil */
+    min-height: 50px;
+}
+
+#texto-pagomensual{
+    color: #333;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.container {
+    background-color: #ffffff;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    max-width: 500px;
+    width: 100%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse; /* Elimina las líneas dobles antiguas */
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Sombra suave */
+    border-radius: 8px;
+    overflow: hidden; /* Para que las esquinas redondeadas funcionen */
+    margin-bottom: 35px;
+}
+th {
+    background-color: #34495e; /* Color oscuro elegante */
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+/* Cajas de texto (inputs) */
+input[type="text"], 
+input[type="number"],
+input[type="tel"] {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #333;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* Efecto cuando haces clic para escribir en un input */
+input[type="text"]:focus, 
+input[type="number"]:focus,
+input[type="tel"]:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+    outline: none;
+}
+
+input[type="submit"], 
+button {
+    background-color: #57b88b; 
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+input[type="submit"]:hover, 
+button:hover {
+    background-color: #b2c9d8; 
+}
+
+input[type="submit"]:active, 
+button:active {
+    transform: scale(0.98); /* Pequeño efecto de hundido al pulsar */
+}
+
+br + label, 
+form p {
+    display: inline-block;
+    width: 160px; /* Alinea los textos del formulario grande */
+    font-weight: 500;
+}
+
+a {
+    display: inline-block;
+    margin-top: 5px;
+    color: #1a08c0;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
